@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Black__"
+    android:orientation="vertical">
+    <View
+        android:layout_width="130dp"
+        android:layout_height="5dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Are You sure want to delete\nThis Note"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="No"
+        android:id="@+id/dailog_no"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+        android:padding="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/btn_no"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Yes"
+        android:id="@+id/dailog_yes"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:background="@drawable/btn_yes"
+        android:layout_marginStart="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
